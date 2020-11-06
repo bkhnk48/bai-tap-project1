@@ -75,7 +75,7 @@ public class FatTreeFlowClassifier extends FatTreeRoutingAlgorithm {
     }
 	
 	@Override
-	public int next(Packet packet, Node node) {
+	public int next(Packet packet, Node node) { //TÁCH HÀM NÀY RA 
 		int current = node.getId();
 		int destination = packet.getDestination();
 		int source = packet.getSource();
