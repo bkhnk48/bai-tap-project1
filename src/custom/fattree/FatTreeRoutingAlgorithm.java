@@ -243,7 +243,7 @@ public class FatTreeRoutingAlgorithm implements RoutingAlgorithm, Cloneable {
     	return next(packet.getSource(), node.getId(), packet.getDestination());
     }
     
-    public RoutingAlgorithm build(Node node) throws CloneNotSupportedException {
+    public RoutingAlgorithm build(Node node) throws CloneNotSupportedException { //HÀM NÀY BẢN CHẤT LÀ XÓA ĐI CÁC BẢNG ĐỊNH TUYẾN DƯ THỪA
     	RoutingAlgorithm ra = (RoutingAlgorithm) this.clone();
     	
     	if(node instanceof Host) {
