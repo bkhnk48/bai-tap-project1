@@ -10,7 +10,7 @@ import network.elements.Packet;
 import network.elements.SourceQueue;
 import network.elements.UnidirectionalWay;
 import network.entities.Switch;
-//import network.states.packet.StateP1;
+//import network.states.packet.StateP1;//XÓA COMMENT DƯ THỪA ĐI?
 //import network.states.packet.StateP2;
 //import network.states.packet.SStateP3;
 import network.states.sourcequeue.Sq1;
