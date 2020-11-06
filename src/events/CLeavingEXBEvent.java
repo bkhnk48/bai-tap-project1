@@ -47,7 +47,7 @@ public class CLeavingEXBEvent extends Event {
             packet.setType(Type.P3);
             
             //change EXB state
-            //exitBuffer.setState(new X00(exitBuffer));
+            //exitBuffer.setState(new X00(exitBuffer));//CHƯA XÓA COMMENT
             exitBuffer.setType(Type.X00);
             exitBuffer.getState().act();
             //change uniWay state
